@@ -1,0 +1,59 @@
+/* General Reset */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Title */
+#title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Image Container */
+#img-div {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+/* Image */
+#image {
+  max-width: 100%;      
+  height: auto;         
+  display: block;       
+  margin: 0 auto;       
+  border-radius: 10px;
+}
+
+/* Caption */
+#img-caption {
+  margin-top: 10px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Tribute Info */
+#tribute-info {
+  margin: 40px auto;
+  max-width: 700px;
+  text-align: left;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Link */
+#tribute-link {
+  color: #0077cc;
+  text-decoration: none;
+}
+#tribute-link:hover {
+  text-decoration: underline;
+}
