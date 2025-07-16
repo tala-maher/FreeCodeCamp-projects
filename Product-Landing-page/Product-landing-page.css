@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    position: relative;
+}
+
+#header-img {
+    max-width: 100%;
+    height: auto;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #343a40;
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: white;
+    margin: 0 15px;
+    display:grid; text-align:center;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#features {
+    background-image: url('https://via.placeholder.com/1200x400');
+    background-size: cover;
+    color:black;
+    padding: 60px 20px;
+  
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.feature-item i {
+    font-size: 2em;
+    margin-right: 10px;
+    color: #ffcc00; /* Icon color */
+}
+
+#video {
+    width: 100%;
+    height: 315px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="email"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 300px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+
+    input[type="email"] {
+        width: 100%;
+    }
+}
